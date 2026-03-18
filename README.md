@@ -23,8 +23,6 @@ A key highlight is the hybrid architecture, which securely bridges a local Docke
 
 ## Architecture Flow
 
-*(Please refer to the diagram at the top of this document for a visual flow.)*
-
 1.  **Ingestion (DAG every 5 mins):** Airflow triggers a Python Producer.
 2.  **Schema Check & Idempotency:** The producer validates schemas against Schema Registry and checks transaction IDs against Redis.
 3.  **Data Write:** Verified, unique data is written to Kafka in Avro format.
