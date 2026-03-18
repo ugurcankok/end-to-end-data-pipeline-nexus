@@ -2,7 +2,7 @@ import urllib.parse
 
 # AWS Credentials
 AWS_ACCESS_KEY = "access_key"
-AWS_SECRET_KEY = "secret_key/uIrHJxJ"
+AWS_SECRET_KEY = "secret_key"
 AWS_BUCKET_NAME = "bucket_name"
 
 # Kafka Configuration
