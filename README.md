@@ -55,7 +55,7 @@ A key highlight is the hybrid architecture, which securely bridges a local Docke
 1.  **Configure AWS Credentials:** Please update `src > utils > helpers.py` file for your AWS Access Key, Secret Key, and Bucket name.
 2.  **Start Local Infrastructure:**
     ```bash
-    docker-compose up -d --build
+    docker compose up -d --build
     ```
     This command starts Kafka, Schema Registry, Redis, PostgreSQL, and Airflow.
 3.  **Setup Ngrok Tunnel:** In a separate terminal or within Docker, expose your local Kafka listener (e.g., port 9094) publicly.
